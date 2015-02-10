@@ -1,0 +1,31 @@
+Image Files:
+1.  Lossless/Lossy
+    Lossy - data is lost and changed
+    Lossless - exact replica of the original
+2.  Compressed/Uncompressed
+    Pixels are 3 bytes (some are 4)
+
+    .gif tiff jpg png webp bmp pdf
+
+    compressed:
+    gif, jpg png webp
+
+    raster: represent a picture as a grid of pixels
+
+    Vector format: SVG Scalable to Vector
+    - list of vectosr=
+      pdf
+
+      gifs and png are comprssed but lose
+
+      Netpbm
+	all white space is teh same]
+File Format{
+     header{
+	     P3
+	XRES Yres
+	Max Color value
+	}
+
+display[filename[ = do
+
