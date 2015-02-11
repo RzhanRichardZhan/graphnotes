@@ -55,4 +55,35 @@ A(x+1) + B(y+1) + C =                    A(x+1) + B(y) + C =
 Ax + A + By + B + C =                    Ax + By + C + A = 
 Ax + By + C + A + B =                    d + A
 d + A + B
+
+The .5 is difficult for the computer to compute:
+-----------------------------------------------
+init 2d : 2d = 2A + B
+2d if y -> y + 1 : 2d = 2d + 2A + 2B
+2d if y -> y : 2d = 2d + 2a
+
+change A = 2(dy) B = -2(dx)
+
+Octants
+-------
+II =swap= VI
+I =swap= V
+VIII =swap= IV
+VII =swap= III
+
+(10,4) -> (6,2) = (6,2) -> (10,4)
+
+Octant II
+d = f(x+.5,y+1)
+  = .5A + B
+
+while ( y <= y1 )
+  Check (x,y+1)
+        (x+1,y+1)
+  if (x+1,y+1)
+    d = d + A + B
+  else
+    d = d + B
+  if d < 0
+    x++
 """
