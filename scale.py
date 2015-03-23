@@ -34,7 +34,7 @@ Affine Transformations:
   |0 cost -sint 0||y|-|ycost-zsint|
   |0 sint cost  0||z|-|ysint+zcost|
   |0 0    0     1||1| |1          |
-  #if x
+  #if y
   |cost 0 -sint 0||x| |xcost-zsint|
   |0    1 0     0||y|-|y          |
   |sint 0 cost  0||z|-|xsint+zcost|

@@ -86,4 +86,11 @@ while ( y <= y1 )
     d = d + B
   if d < 0
     x++
+
+Edge List
+P0P1P1P2P2P0
+
+Points have x,y,z,1
+
+4xn array
 """
