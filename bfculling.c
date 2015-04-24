@@ -24,5 +24,9 @@ V = <0,0,-1>
 N * V = Mcost
 if Mcost is positive, 0 < t < 90 or 270 < t < 360
 else, 90 < t < 270 which is what we want
+= NxVx + NyVy + NzVz
+
+
+
 
  */
